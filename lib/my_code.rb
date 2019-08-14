@@ -42,6 +42,12 @@ end
 
 def reduce_to_total (array, start)
   count = 0
+  total = 0
+  while array[count]
+  total +=array[count]
+  count+=1 
+end
+return total
 end
 
 
