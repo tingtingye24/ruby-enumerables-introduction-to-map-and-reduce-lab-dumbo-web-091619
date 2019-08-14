@@ -57,7 +57,7 @@ def reduce_to_all_true (array)
   end
   count+=1 
 end
-return "falsey value"
+return falsey value
 end
 
 
