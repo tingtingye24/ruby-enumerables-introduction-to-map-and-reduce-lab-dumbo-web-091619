@@ -51,7 +51,7 @@ end
 
 def reduce_to_all_true (array)
   count = 0 
-  while array[count]
+  array.length.times do
   if array[count]=="false"
     return false
   end
