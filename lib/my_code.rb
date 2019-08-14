@@ -49,6 +49,18 @@ end
 return start
 end
 
+def reduce_to_all_true (array)
+  count = 0 
+  isTF =TRUE
+  while array[count]
+  if array[count]==FALSE
+    return FALSE
+  end
+  count+=1 
+end
+return TRUE
+    
+end
 
 
 
