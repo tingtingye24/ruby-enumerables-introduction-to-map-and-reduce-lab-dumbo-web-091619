@@ -40,7 +40,7 @@ end
 return newarray
 end
 
-def reduce_to_total (array, start)
+def reduce_to_total (array, start=0)
   count = 0
   while array[count]
   start +=array[count]
