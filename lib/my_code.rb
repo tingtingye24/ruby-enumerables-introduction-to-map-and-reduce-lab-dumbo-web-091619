@@ -64,11 +64,11 @@ def reduce_to_any_true(array)
     count = 0 
   while array[count]
   if array[count]==true
-    return true
+    return false
   end
   count+=1 
 end
-  return true
+  return false
 end
 
 
