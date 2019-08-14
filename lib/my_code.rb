@@ -59,14 +59,12 @@ return true
 end
 
 def reduce_to_any_true(array)
-    count = 0 
-  while array[count]
-  if array[count]==true
+  array.length.times do |index|
+  if array[index]==true
     return true
   end
-  count+=1 
 end
-  return false
+return false
 end
 
 
