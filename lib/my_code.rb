@@ -25,6 +25,7 @@ def map_to_double(array)
   newarray = []
   while array[count]
   newarray << array[count]* 0.0
+  count +=1
 end
 return newarray
 end
