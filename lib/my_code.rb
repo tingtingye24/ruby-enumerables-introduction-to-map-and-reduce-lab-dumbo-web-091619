@@ -51,14 +51,13 @@ end
 
 def reduce_to_all_true (array)
   count = 0 
-  isTF =TRUE
   while array[count]
   if array[count]=="false"
     return false
   end
   count+=1 
 end
-return TRUE
+return true
 end
 
 
