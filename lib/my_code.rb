@@ -34,7 +34,7 @@ def map_to_square (array)
   count = 0 
   newarray = []
   while array[count]
-  newarray << array **2
+  newarray << array[count] **2
   count+=1 
 end 
 return newarray
