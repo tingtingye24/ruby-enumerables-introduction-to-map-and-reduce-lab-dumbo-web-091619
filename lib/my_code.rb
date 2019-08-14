@@ -67,6 +67,7 @@ def reduce_to_any_true(array)
     return true
   end
   count+=1 
+end
   return false
 end
 
