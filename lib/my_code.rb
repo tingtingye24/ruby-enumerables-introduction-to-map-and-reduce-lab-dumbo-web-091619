@@ -57,9 +57,18 @@ def reduce_to_all_true (array)
   end
   count+=1 
 end
-return falsey value
+return true
 end
 
+def reduce_to_any_true(array)
+    count = 0 
+  while array[count]
+  if array[count]=="true"
+    return true
+  end
+  count+=1 
+  return false
+end
 
 
 
