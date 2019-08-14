@@ -39,3 +39,14 @@ def map_to_square (array)
 end 
 return newarray
 end
+
+def reduce_to_total (array, start)
+  count = 0
+end
+
+
+
+
+
+
+
