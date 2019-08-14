@@ -50,12 +50,10 @@ return start
 end
 
 def reduce_to_all_true (array)
-  count = 0 
-  array.length.times do
-  if array[count]=="false"
+  array.length.times do |index|
+  if array[index]=="false"
     return false
   end
-  count+=1 
 end
 return true
 end
